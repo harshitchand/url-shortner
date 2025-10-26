@@ -1,0 +1,26 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "This is a backend project using node js to make short urls",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitchand/url-shortner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitchand/url-shortner/issues"
+  },
+  "homepage": "https://github.com/harshitchand/url-shortner#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "nanoid": "^5.1.6",
+    "nodemon": "^3.1.10"
+  }
+}
