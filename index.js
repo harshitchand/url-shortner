@@ -3,8 +3,10 @@ const app = express();
 const port = 8000;
 const connectDB  = require('./connect');
 const urlRoute = require('./routes/routes');
-connectDB()
+connectDB();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use("/url", urlRoute)
 
